@@ -1,0 +1,35 @@
+:root {
+    color-scheme: light dark;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: system-ui;
+}
+
+p {
+    margin: 30px auto;
+    padding: 20px;
+    min-width: 120px;
+    min-height: 80px;
+    text-align: center;
+    line-height: 1.5em;
+}
+
+a {
+    color: blue;
+}
+
+@media (prefers-color-scheme: dark) {
+    a {
+        color: cyan;
+    }
+}
